@@ -242,7 +242,7 @@ int main(int argc, char **argv ) {
     } else {
         // for now hardcode this guy
         // should be obtained somehow, env?
-        std::string path_to_source_file = "/Users/vk/software/test-regression/multifit_ocl/device";
+        std::string path_to_source_file = "./device";
         std::string source_file {path_to_source_file + "/" + "inplace_fnnls_original.cl"};
         auto source = get_source(source_file);
         std::cout << "got a source file: " << source.size() << " Bytes in total"<< std::endl;
