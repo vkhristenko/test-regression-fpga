@@ -1,4 +1,4 @@
-#include "multifit_ocl/include/utils.hpp"
+#include "include/utils.hpp"
 
 namespace clapi {
 

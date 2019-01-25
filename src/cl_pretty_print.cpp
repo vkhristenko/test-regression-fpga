@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "multifit_ocl/include/cl_pretty_print.hpp"
+#include "include/cl_pretty_print.hpp"
 
 #define print_info_option(os, device, option, mod) \
     os << mod << #option " = " << device.getInfo<option>() << "\n"

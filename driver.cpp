@@ -6,9 +6,9 @@
 
 #include <boost/program_options.hpp>
 
-#include "multifit_ocl/include/cl_pretty_print.hpp"
-#include "multifit_ocl/include/utils.hpp"
-#include "multifit_ocl/include/inplace_fnnls.h"
+#include "include/cl_pretty_print.hpp"
+#include "include/utils.hpp"
+#include "include/inplace_fnnls.h"
 
 using data_type = float;
 using my_matrix = matrix_t<data_type>;
